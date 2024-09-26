@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(14, 20, 203, 0.986);
+    color:rgb(241, 248, 248);
+    font-family: "Roboto Condensed", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+ }
+
+ button{
+    background-color:rgb(47, 90, 218);
+    color: white;
+    font-family: "Roboto Condensed", cursive;
+ }
+
+ .passo {
+   display: none;
+ }
+
+ .passo.ativo{
+   display: block;
+ }
+
+ main{
+   text-align: center;
+   max-width: 90%;
+ }
+
+ img{
+   max-width: 90%;
+ }
